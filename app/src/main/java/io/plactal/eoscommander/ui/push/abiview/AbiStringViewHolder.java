@@ -28,10 +28,8 @@ import android.support.design.widget.TextInputLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-12-28.

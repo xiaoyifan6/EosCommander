@@ -32,7 +32,7 @@ import android.widget.TextView;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.ui.base.BaseDialog;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-11-13.

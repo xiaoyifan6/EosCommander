@@ -23,8 +23,8 @@
  */
 package io.plactal.eoscommander.ui.push.abiview;
 
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiMain;
 import io.plactal.eoscommander.ui.base.MvpView;
+import oyz.com.eosapi.model.abi.EosAbiMain;
 
 /**
  * Created by swapnibble on 2018-01-12.

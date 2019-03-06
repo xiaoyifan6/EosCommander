@@ -25,6 +25,7 @@ package io.plactal.eoscommander.data.wallet;
 
 
 //import com.google.common.base.Preconditions;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonIOException;
@@ -44,15 +45,15 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.plactal.eoscommander.crypto.digest.Sha512;
-import io.plactal.eoscommander.crypto.ec.EosPrivateKey;
-import io.plactal.eoscommander.crypto.ec.EosPublicKey;
-import io.plactal.eoscommander.crypto.util.CryptUtil;
-import io.plactal.eoscommander.crypto.util.HexUtils;
-import io.plactal.eoscommander.data.remote.model.types.EosByteWriter;
-import io.plactal.eoscommander.data.remote.model.types.EosType;
-import io.plactal.eoscommander.data.remote.model.types.EosByteReader;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.crypto.digest.Sha512;
+import oyz.com.eosapi.crypto.ec.EosPrivateKey;
+import oyz.com.eosapi.crypto.ec.EosPublicKey;
+import oyz.com.eosapi.crypto.util.CryptUtil;
+import oyz.com.eosapi.crypto.util.HexUtils;
+import oyz.com.eosapi.model.types.EosByteReader;
+import oyz.com.eosapi.model.types.EosByteWriter;
+import oyz.com.eosapi.model.types.EosType;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-09-25.

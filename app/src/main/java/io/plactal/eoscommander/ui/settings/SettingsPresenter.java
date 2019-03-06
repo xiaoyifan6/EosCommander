@@ -30,13 +30,13 @@ import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.data.EoscDataManager;
-import io.plactal.eoscommander.data.remote.HostInterceptor;
-import io.plactal.eoscommander.data.remote.model.api.EosChainInfo;
 import io.plactal.eoscommander.ui.base.BasePresenter;
 import io.plactal.eoscommander.ui.base.RxCallbackWrapper;
-import io.plactal.eoscommander.util.Consts;
-import io.plactal.eoscommander.util.RefValue;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.model.api.EosChainInfo;
+import oyz.com.eosapi.net.HostInterceptor;
+import oyz.com.eosapi.util.Consts;
+import oyz.com.eosapi.util.RefValue;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-11-03.

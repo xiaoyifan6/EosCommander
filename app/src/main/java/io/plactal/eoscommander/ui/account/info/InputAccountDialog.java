@@ -28,20 +28,14 @@ import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.AutoCompleteTextView;
 import android.widget.TextView;
 
-import javax.inject.Inject;
-
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.data.EoscDataManager;
 import io.plactal.eoscommander.di.component.ActivityComponent;
 import io.plactal.eoscommander.ui.base.BaseDialog;
-import io.plactal.eoscommander.util.RefValue;
 import io.plactal.eoscommander.util.UiUtils;
-import io.plactal.eoscommander.util.Utils;
-import io.reactivex.disposables.CompositeDisposable;
+import oyz.com.eosapi.util.Utils;
 
 /**
  * Created by swapnibble on 2017-11-16.

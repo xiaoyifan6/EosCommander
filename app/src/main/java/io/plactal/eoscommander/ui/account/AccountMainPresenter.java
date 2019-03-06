@@ -33,9 +33,9 @@ import io.plactal.eoscommander.data.EoscDataManager;
 import io.plactal.eoscommander.ui.account.info.AccountInfoType;
 import io.plactal.eoscommander.ui.base.BasePresenter;
 import io.plactal.eoscommander.ui.base.RxCallbackWrapper;
-import io.plactal.eoscommander.util.StringUtils;
-import io.plactal.eoscommander.util.Utils;
 import io.reactivex.Completable;
+import oyz.com.eosapi.util.StringUtils;
+import oyz.com.eosapi.util.Utils;
 
 /**
  * Created by swapnibble on 2017-11-16.

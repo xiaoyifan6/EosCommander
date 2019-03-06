@@ -27,16 +27,14 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.List;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
 import io.plactal.eoscommander.di.ApplicationContext;
-import io.plactal.eoscommander.util.Consts;
-import io.plactal.eoscommander.util.RefValue;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.util.Consts;
+import oyz.com.eosapi.util.RefValue;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-08-21.

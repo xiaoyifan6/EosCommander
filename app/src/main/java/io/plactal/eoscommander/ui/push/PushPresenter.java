@@ -23,8 +23,6 @@
  */
 package io.plactal.eoscommander.ui.push;
 
-import com.google.gson.JsonObject;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -39,12 +37,12 @@ import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.data.EoscDataManager;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiMain;
-import io.plactal.eoscommander.data.remote.model.api.PushTxnResponse;
 import io.plactal.eoscommander.ui.base.BasePresenter;
 import io.plactal.eoscommander.ui.base.RxCallbackWrapper;
-import io.plactal.eoscommander.util.StringUtils;
-import io.plactal.eoscommander.util.Utils;
+import oyz.com.eosapi.model.abi.EosAbiMain;
+import oyz.com.eosapi.model.api.PushTxnResponse;
+import oyz.com.eosapi.util.StringUtils;
+import oyz.com.eosapi.util.Utils;
 
 
 /**

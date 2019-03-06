@@ -27,7 +27,6 @@ import java.io.IOException;
 import java.net.SocketTimeoutException;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.util.RefValue;
 import io.plactal.eoscommander.util.rx.EoscSchedulerProvider;
 import io.plactal.eoscommander.util.rx.SchedulerProvider;
 import io.reactivex.disposables.CompositeDisposable;

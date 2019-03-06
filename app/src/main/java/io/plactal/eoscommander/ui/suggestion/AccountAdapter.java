@@ -12,17 +12,16 @@ import android.widget.Filter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.app.EosCommanderApp;
 import io.plactal.eoscommander.data.EoscDataManager;
-import io.plactal.eoscommander.util.StringUtils;
 import io.plactal.eoscommander.util.rx.EoscSchedulerProvider;
 import io.plactal.eoscommander.util.rx.SchedulerProvider;
 import io.reactivex.Completable;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2018-01-15.

@@ -1,0 +1,48 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "ce5ac9485ea74054441eeb75a8cb85bb",
+    "entities": [
+      {
+        "tableName": "eos_account",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`account_name` TEXT NOT NULL, `type` INTEGER, PRIMARY KEY(`account_name`))",
+        "fields": [
+          {
+            "fieldPath": "name",
+            "columnName": "account_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "account_name"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [
+          {
+            "name": "index_eos_account_account_name",
+            "unique": true,
+            "columnNames": [
+              "account_name"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_eos_account_account_name` ON `${TABLE_NAME}` (`account_name`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"ce5ac9485ea74054441eeb75a8cb85bb\")"
+    ]
+  }
+}

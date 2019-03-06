@@ -1,14 +1,10 @@
 package io.plactal.eoscommander.data.local.repository;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 import io.plactal.eoscommander.data.local.db.AppDatabase;
 import io.plactal.eoscommander.data.local.db.EosAccount;
-import io.plactal.eoscommander.util.RefValue;
 
 /**
  * Created by swapnibble on 2017-12-14.

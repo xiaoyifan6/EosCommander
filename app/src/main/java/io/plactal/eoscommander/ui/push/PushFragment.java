@@ -35,22 +35,19 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ListAdapter;
-import android.widget.MultiAutoCompleteTextView;
 import android.widget.TextView;
-
-import com.jraska.console.Console;
 
 import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiMain;
 import io.plactal.eoscommander.di.component.ActivityComponent;
 import io.plactal.eoscommander.ui.base.BaseFragment;
 import io.plactal.eoscommander.ui.file.FileChooserActivity;
-import io.plactal.eoscommander.ui.push.abiview.MsgInputActivity;
 import io.plactal.eoscommander.ui.push.abiview.AbiViewBuilder;
-import io.plactal.eoscommander.util.StringUtils;
+import io.plactal.eoscommander.ui.push.abiview.MsgInputActivity;
 import io.plactal.eoscommander.util.UiUtils;
+import oyz.com.eosapi.model.abi.EosAbiMain;
+import oyz.com.eosapi.util.StringUtils;
 
 import static android.app.Activity.RESULT_OK;
 

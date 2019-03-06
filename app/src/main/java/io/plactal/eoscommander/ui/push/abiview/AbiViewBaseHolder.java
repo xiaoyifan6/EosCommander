@@ -41,7 +41,7 @@ import org.json.JSONObject;
 import java.lang.ref.WeakReference;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2018-01-08.

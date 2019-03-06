@@ -37,7 +37,7 @@ import io.plactal.eoscommander.data.EoscDataManager;
 import io.plactal.eoscommander.di.component.ActivityComponent;
 import io.plactal.eoscommander.ui.base.BaseDialog;
 import io.plactal.eoscommander.ui.base.MvpView;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-11-08.

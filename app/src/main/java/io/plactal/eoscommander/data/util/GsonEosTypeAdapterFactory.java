@@ -14,12 +14,12 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import io.plactal.eoscommander.data.remote.model.types.TypeAccountName;
-import io.plactal.eoscommander.data.remote.model.types.TypeActionName;
-import io.plactal.eoscommander.data.remote.model.types.TypeAsset;
-import io.plactal.eoscommander.data.remote.model.types.TypeName;
-import io.plactal.eoscommander.data.remote.model.types.TypePermissionName;
-import io.plactal.eoscommander.data.remote.model.types.TypeScopeName;
+import oyz.com.eosapi.model.types.TypeAccountName;
+import oyz.com.eosapi.model.types.TypeActionName;
+import oyz.com.eosapi.model.types.TypeAsset;
+import oyz.com.eosapi.model.types.TypeName;
+import oyz.com.eosapi.model.types.TypePermissionName;
+import oyz.com.eosapi.model.types.TypeScopeName;
 
 /**
  * Created by swapnibble on 2018-04-04.

@@ -23,6 +23,8 @@
  */
 package io.plactal.eoscommander.data.remote.model.types;
 
+import oyz.com.eosapi.model.types.EosType;
+
 public class EosByteReader implements EosType.Reader{
 
    private byte[] _buf;

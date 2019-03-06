@@ -27,8 +27,8 @@ package io.plactal.eoscommander.ui.push.abiview;
 import javax.inject.Inject;
 
 import io.plactal.eoscommander.data.EoscDataManager;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiMain;
 import io.plactal.eoscommander.ui.base.BasePresenter;
+import oyz.com.eosapi.model.abi.EosAbiMain;
 
 /**
  * Created by swapnibble on 2018-01-12.

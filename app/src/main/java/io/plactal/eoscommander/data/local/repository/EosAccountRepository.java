@@ -2,8 +2,6 @@ package io.plactal.eoscommander.data.local.repository;
 
 import java.util.List;
 
-import io.plactal.eoscommander.util.RefValue;
-
 /**
  * Created by swapnibble on 2017-12-14.
  */

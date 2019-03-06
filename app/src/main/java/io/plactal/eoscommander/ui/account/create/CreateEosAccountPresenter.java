@@ -29,18 +29,17 @@ import java.util.Arrays;
 import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.crypto.ec.EosPrivateKey;
 import io.plactal.eoscommander.data.EoscDataManager;
-import io.plactal.eoscommander.data.remote.model.api.PushTxnResponse;
-import io.plactal.eoscommander.data.remote.model.chain.Action;
-import io.plactal.eoscommander.data.remote.model.types.EosNewAccount;
-import io.plactal.eoscommander.data.remote.model.types.TypePublicKey;
 import io.plactal.eoscommander.data.wallet.EosWallet;
 import io.plactal.eoscommander.ui.base.BasePresenter;
 import io.plactal.eoscommander.ui.base.RxCallbackWrapper;
-import io.plactal.eoscommander.util.StringUtils;
-import io.plactal.eoscommander.util.Utils;
 import io.reactivex.Observable;
+import oyz.com.eosapi.crypto.ec.EosPrivateKey;
+import oyz.com.eosapi.model.api.PushTxnResponse;
+import oyz.com.eosapi.model.types.EosNewAccount;
+import oyz.com.eosapi.model.types.TypePublicKey;
+import oyz.com.eosapi.util.StringUtils;
+import oyz.com.eosapi.util.Utils;
 
 /**
  * Created by swapnibble on 2017-11-06.

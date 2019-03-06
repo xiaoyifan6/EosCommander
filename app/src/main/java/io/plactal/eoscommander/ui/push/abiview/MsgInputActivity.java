@@ -32,13 +32,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-
 import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiMain;
 import io.plactal.eoscommander.ui.base.BaseActivity;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.model.abi.EosAbiMain;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2018-01-15.

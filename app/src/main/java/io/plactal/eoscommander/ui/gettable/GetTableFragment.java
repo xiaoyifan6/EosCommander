@@ -42,8 +42,8 @@ import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.di.component.ActivityComponent;
 import io.plactal.eoscommander.ui.base.BaseFragment;
 import io.plactal.eoscommander.ui.result.ShowResultDialog;
-import io.plactal.eoscommander.util.StringUtils;
 import io.plactal.eoscommander.util.UiUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 public class GetTableFragment extends BaseFragment implements GetTableMvpView {
 

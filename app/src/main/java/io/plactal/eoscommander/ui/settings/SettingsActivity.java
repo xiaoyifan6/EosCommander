@@ -38,9 +38,8 @@ import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.ui.base.BaseActivity;
-import io.plactal.eoscommander.util.StringUtils;
 import io.plactal.eoscommander.util.UiUtils;
-import timber.log.Timber;
+import oyz.com.eosapi.util.StringUtils;
 
 public class SettingsActivity extends BaseActivity implements SettingsMvpView {
     private static final int COLOR_ID_CONNECTION_OK = R.color.colorPlactal;

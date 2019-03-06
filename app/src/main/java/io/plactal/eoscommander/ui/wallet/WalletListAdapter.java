@@ -34,7 +34,7 @@ import java.util.ArrayList;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.data.wallet.EosWallet;
-import io.plactal.eoscommander.util.Consts;
+import oyz.com.eosapi.util.Consts;
 
 /**
  * Created by swapnibble on 2017-11-13.

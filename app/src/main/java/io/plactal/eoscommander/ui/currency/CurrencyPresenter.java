@@ -1,14 +1,10 @@
 package io.plactal.eoscommander.ui.currency;
 
-import com.google.gson.JsonObject;
-
 import javax.inject.Inject;
 
 import io.plactal.eoscommander.data.EoscDataManager;
 import io.plactal.eoscommander.ui.base.BasePresenter;
 import io.plactal.eoscommander.ui.base.RxCallbackWrapper;
-import io.plactal.eoscommander.util.StringUtils;
-import io.plactal.eoscommander.util.Utils;
 
 /**
  * Created by swapnibble on 2018-04-16.

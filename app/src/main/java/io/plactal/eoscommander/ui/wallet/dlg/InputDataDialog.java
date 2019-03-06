@@ -24,7 +24,6 @@
 package io.plactal.eoscommander.ui.wallet.dlg;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,8 +33,8 @@ import android.widget.TextView;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.ui.base.BaseDialog;
-import io.plactal.eoscommander.util.StringUtils;
 import io.plactal.eoscommander.util.UiUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-11-15.

@@ -40,13 +40,13 @@ import java.util.Set;
 import java.util.TreeMap;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiAction;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiField;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiMain;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiStruct;
-import io.plactal.eoscommander.data.remote.model.abi.EosAbiTypeDef;
-import io.plactal.eoscommander.util.RefValue;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.model.abi.EosAbiAction;
+import oyz.com.eosapi.model.abi.EosAbiField;
+import oyz.com.eosapi.model.abi.EosAbiMain;
+import oyz.com.eosapi.model.abi.EosAbiStruct;
+import oyz.com.eosapi.model.abi.EosAbiTypeDef;
+import oyz.com.eosapi.util.RefValue;
+import oyz.com.eosapi.util.StringUtils;
 
 
 /**

@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2018-09-20.

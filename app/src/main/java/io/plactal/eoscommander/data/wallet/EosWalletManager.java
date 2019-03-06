@@ -30,12 +30,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.plactal.eoscommander.crypto.ec.EosPrivateKey;
-import io.plactal.eoscommander.crypto.ec.EosPublicKey;
-import io.plactal.eoscommander.data.remote.model.chain.PackedTransaction;
-import io.plactal.eoscommander.data.remote.model.chain.SignedTransaction;
-import io.plactal.eoscommander.data.remote.model.types.TypeChainId;
-import io.plactal.eoscommander.util.Consts;
+import oyz.com.eosapi.crypto.ec.EosPrivateKey;
+import oyz.com.eosapi.crypto.ec.EosPublicKey;
+import oyz.com.eosapi.model.chain.SignedTransaction;
+import oyz.com.eosapi.model.types.TypeChainId;
+import oyz.com.eosapi.util.Consts;
 
 /**
  * Created by swapnibble on 2017-09-19.
@@ -364,7 +363,7 @@ public class EosWalletManager {
     }
 
     public SignedTransaction signTransaction(final SignedTransaction txn,
-               final List<EosPublicKey> keys, final TypeChainId id) throws IllegalStateException{
+                                             final List<EosPublicKey> keys, final TypeChainId id) throws IllegalStateException{
 
         SignedTransaction stxn = new SignedTransaction( txn );
 

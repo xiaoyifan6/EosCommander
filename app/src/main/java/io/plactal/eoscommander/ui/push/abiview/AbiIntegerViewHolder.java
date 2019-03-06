@@ -31,7 +31,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.util.Utils;
+import oyz.com.eosapi.util.Utils;
 
 import static android.text.InputType.TYPE_NUMBER_FLAG_SIGNED;
 

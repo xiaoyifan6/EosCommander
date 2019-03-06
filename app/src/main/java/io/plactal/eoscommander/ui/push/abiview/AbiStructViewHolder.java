@@ -32,7 +32,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import io.plactal.eoscommander.R;
-import io.plactal.eoscommander.util.StringUtils;
+import oyz.com.eosapi.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-12-28.

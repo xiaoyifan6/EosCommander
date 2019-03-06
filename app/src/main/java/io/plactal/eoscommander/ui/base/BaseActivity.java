@@ -34,16 +34,10 @@ import android.support.v4.app.NavUtils;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.format.DateFormat;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
-
-import com.github.florent37.singledateandtimepicker.dialog.SingleDateAndTimePickerDialog;
-
-import java.text.SimpleDateFormat;
-import java.util.Locale;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.app.EosCommanderApp;
@@ -51,7 +45,6 @@ import io.plactal.eoscommander.di.component.ActivityComponent;
 import io.plactal.eoscommander.di.component.DaggerActivityComponent;
 import io.plactal.eoscommander.di.module.ActivityModule;
 import io.plactal.eoscommander.ui.result.ShowResultDialog;
-import io.plactal.eoscommander.util.StringUtils;
 import io.plactal.eoscommander.util.UiUtils;
 
 

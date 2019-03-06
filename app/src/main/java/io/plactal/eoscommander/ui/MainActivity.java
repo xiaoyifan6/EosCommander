@@ -11,11 +11,9 @@ import javax.inject.Inject;
 
 import io.plactal.eoscommander.R;
 import io.plactal.eoscommander.data.EoscDataManager;
-import io.plactal.eoscommander.data.remote.model.types.TypeSymbol;
 import io.plactal.eoscommander.ui.base.BaseActivity;
 import io.plactal.eoscommander.ui.settings.SettingsActivity;
-import io.plactal.eoscommander.util.StringUtils;
-import timber.log.Timber;
+import oyz.com.eosapi.util.StringUtils;
 
 
 public class MainActivity extends BaseActivity {
